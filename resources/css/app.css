@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+[x-cloak] {
+    display: none;
+}
+
+.no-spinners {
+    -moz-appearance: textfield;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*@font-face {
+    font-family: "butler";
+    src: url("/static/fonts/butler/butler_black-webfont.eot");
+    src: url("/static/fonts/butler/butler_black-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("/static/fonts/butler/butler_black-webfont.woff2") format("woff2"),
+    url("/static/fonts/butler/butler_black-webfont.woff") format("woff"),
+    url("/static/fonts/butler/butler_black-webfont.ttf") format("truetype"),
+    url("/static/fonts/butler/butler_black-webfont.svg#butlerblack")
+    format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "butler";
+    src: url("/static/fonts/butler/butler_bold-webfont.eot");
+    src: url("/static/fonts/butler/butler_bold-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("/static/fonts/butler/butler_bold-webfont.woff2") format("woff2"),
+    url("/static/fonts/butler/butler_bold-webfont.woff") format("woff"),
+    url("/static/fonts/butler/butler_bold-webfont.ttf") format("truetype"),
+    url("/static/fonts/butler/butler_bold-webfont.svg#butlerbold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "butler";
+    src: url("/static/fonts/butler/butler_extrabold-webfont.eot");
+    src: url("/static/fonts/butler/butler_extrabold-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("/static/fonts/butler/butler_extrabold-webfont.woff2") format("woff2"),
+    url("/static/fonts/butler/butler_extrabold-webfont.woff") format("woff"),
+    url("/static/fonts/butler/butler_extrabold-webfont.ttf") format("truetype"),
+    url("/static/fonts/butler/butler_extrabold-webfont.svg#butlerextrabold")
+    format("svg");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "butler";
+    src: url("/static/fonts/butler/butler_light-webfont.eot");
+    src: url("/static/fonts/butler/butler_light-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("/static/fonts/butler/butler_light-webfont.woff2") format("woff2"),
+    url("/static/fonts/butler/butler_light-webfont.woff") format("woff"),
+    url("/static/fonts/butler/butler_light-webfont.ttf") format("truetype"),
+    url("/static/fonts/butler/butler_light-webfont.svg#butlerlight")
+    format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "butler";
+    src: url("/static/fonts/butler/butler_medium-webfont.eot");
+    src: url("/static/fonts/butler/butler_medium-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("/static/fonts/butler/butler_medium-webfont.woff2") format("woff2"),
+    url("/static/fonts/butler/butler_medium-webfont.woff") format("woff"),
+    url("/static/fonts/butler/butler_medium-webfont.ttf") format("truetype"),
+    url("/static/fonts/butler/butler_medium-webfont.svg#butlermedium")
+    format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}*/
+
+@font-face {
+    font-family: "butler";
+    src: url("/static/fonts/butler/butler_regular-webfont.eot");
+    src: url("/static/fonts/butler/butler_regular-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("/static/fonts/butler/butler_regular-webfont.woff2") format("woff2"),
+    url("/static/fonts/butler/butler_regular-webfont.woff") format("woff"),
+    url("/static/fonts/butler/butler_regular-webfont.ttf") format("truetype"),
+    url("/static/fonts/butler/butler_regular-webfont.svg#butlerregular")
+    format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "butler";
+    src: url("/static/fonts/butler/Butler/butler_ultra_light-webfont.eot");
+    src: url("/static/fonts/butler/Butler/butler_ultra_light-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("/static/fonts/butler/Butler/butler_ultra_light-webfont.woff2") format("woff2"),
+    url("/static/fonts/butler/Butler/butler_ultra_light-webfont.woff") format("woff"),
+    url("/static/fonts/butler/Butler/butler_ultra_light-webfont.ttf")
+    format("truetype"),
+    url("/staticfonts/butler/Butler/butler_ultra_light-webfont.svg#butlerultralight")
+    format("svg");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
